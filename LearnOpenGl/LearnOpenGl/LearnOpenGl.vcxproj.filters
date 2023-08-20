@@ -21,5 +21,111 @@
     <ClCompile Include="src\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\stb_image.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\shaders\3.3.shader.fs" />
+    <None Include="src\shaders\3.3.shader.vs" />
+    <None Include="src\shaders\texture_1.vs" />
+    <None Include="src\shaders\texture_1.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\global.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="src\resources\awesomeface.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\background.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\block.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\block_solid.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\bricks2.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\bricks2_disp.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\bricks2_normal.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\brickwall.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\brickwall_normal.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\container.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\container2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\container2_specular.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\container2_specular_colored.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\grass.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\marble.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\matrix.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\metal.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\paddle.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\particle.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\powerup_chaos.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\powerup_confuse.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\powerup_increase.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\powerup_passthrough.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\powerup_speed.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\powerup_sticky.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\toy_box_diffuse.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\toy_box_disp.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\toy_box_normal.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\window.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\resources\wood.png">
+      <Filter>资源文件</Filter>
+    </Image>
   </ItemGroup>
 </Project>

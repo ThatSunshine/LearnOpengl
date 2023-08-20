@@ -1,3 +1,5 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(LearnOpenGl.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(lesson1.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
   main.cpp
-  LearnOpenGl.vcxproj -> D:\engine_dev\LearnOpengl\LearnOpenGl\x64\Debug\lesson1.exe
+D:\engine_dev\LearnOpengl\LearnOpenGl\LearnOpenGl\src\main.cpp(175,23): warning C4305: “+=”: 从“double”到“float”截断
+D:\engine_dev\LearnOpengl\LearnOpenGl\LearnOpenGl\src\main.cpp(181,23): warning C4305: “-=”: 从“double”到“float”截断
+  LearnOpenGl.vcxproj -> D:\engine_dev\LearnOpengl\LearnOpenGl\x64\Debug\LearnOpenGl.exe
