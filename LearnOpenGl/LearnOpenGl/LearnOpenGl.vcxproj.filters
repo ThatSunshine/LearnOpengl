@@ -30,6 +30,8 @@
     <None Include="src\shaders\3.3.shader.vs" />
     <None Include="src\shaders\texture_1.vs" />
     <None Include="src\shaders\texture_1.fs" />
+    <None Include="src\shaders\texture_trans_1.vs" />
+    <None Include="src\shaders\texture_trans_1.fs" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\global.h">

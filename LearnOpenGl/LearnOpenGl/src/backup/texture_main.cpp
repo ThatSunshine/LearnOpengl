@@ -9,6 +9,7 @@
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow* window);
 
+
 const unsigned int SCR_WIDTH = 800;
 const unsigned int SCR_HEIGHT = 600;
 
@@ -46,11 +47,11 @@ int main()
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     float vertices[] = {
-        //     ---- Î»ÖÃ ----       ---- ÑÕÉ« ----     - ÎÆÀí×ø±ê -
-             0.5f,  0.5f, 0.0f,   1.0f, 0.0f, 0.0f,   2.0f, 2.0f,   // ÓÒÉÏ
-             0.5f, -0.5f, 0.0f,   0.0f, 1.0f, 0.0f,   2.0f, 0.0f,   // ÓÒÏÂ
-            -0.5f, -0.5f, 0.0f,   0.0f, 0.0f, 1.0f,   0.0f, 0.0f,   // ×óÏÂ
-            -0.5f,  0.5f, 0.0f,   1.0f, 1.0f, 0.0f,   0.0f, 2.0f    // ×óÉÏ
+        //     ---- Î»ï¿½ï¿½ ----       ---- ï¿½ï¿½É« ----     - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -
+             0.5f,  0.5f, 0.0f,   1.0f, 0.0f, 0.0f,   2.0f, 2.0f,   // ï¿½ï¿½ï¿½ï¿½
+             0.5f, -0.5f, 0.0f,   0.0f, 1.0f, 0.0f,   2.0f, 0.0f,   // ï¿½ï¿½ï¿½ï¿½
+            -0.5f, -0.5f, 0.0f,   0.0f, 0.0f, 1.0f,   0.0f, 0.0f,   // ï¿½ï¿½ï¿½ï¿½
+            -0.5f,  0.5f, 0.0f,   1.0f, 1.0f, 0.0f,   0.0f, 2.0f    // ï¿½ï¿½ï¿½ï¿½
     };
     unsigned int indices[] = {
         0, 1, 3, // first triangle
@@ -83,12 +84,12 @@ int main()
     unsigned int texture1;
     glGenTextures(1, &texture1);
     glBindTexture(GL_TEXTURE_2D, texture1);
-    // Îªµ±Ç°°ó¶¨µÄÎÆÀí¶ÔÏóÉèÖÃ»·ÈÆ¡¢¹ýÂË·½Ê½
+    // Îªï¿½ï¿½Ç°ï¿½ó¶¨µï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½Æ¡ï¿½ï¿½ï¿½ï¿½Ë·ï¿½Ê½
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-    // ¼ÓÔØ²¢Éú³ÉÎÆÀí
+    // ï¿½ï¿½ï¿½Ø²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     int width, height, nrChannels;
     auto jpg = path + "resources\\container.jpg";
     stbi_set_flip_vertically_on_load(true);
@@ -108,12 +109,12 @@ int main()
     unsigned int texture2;
     glGenTextures(1, &texture2);
     glBindTexture(GL_TEXTURE_2D, texture2);
-    // Îªµ±Ç°°ó¶¨µÄÎÆÀí¶ÔÏóÉèÖÃ»·ÈÆ¡¢¹ýÂË·½Ê½
+    // Îªï¿½ï¿½Ç°ï¿½ó¶¨µï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½Æ¡ï¿½ï¿½ï¿½ï¿½Ë·ï¿½Ê½
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-    // ¼ÓÔØ²¢Éú³ÉÎÆÀí
+    // ï¿½ï¿½ï¿½Ø²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     auto png = path + "resources\\awesomeface.png";
     data = stbi_load(png.data(), &width, &height, &nrChannels, 0);
     if (data)
