@@ -155,8 +155,12 @@
     <None Include="src\shaders\3.3.shader.vs" />
     <None Include="src\shaders\camera.fs" />
     <None Include="src\shaders\camera.vs" />
+    <None Include="src\shaders\color.fs" />
+    <None Include="src\shaders\color.vs" />
     <None Include="src\shaders\coordinate_system.fs" />
     <None Include="src\shaders\coordinate_system.vs" />
+    <None Include="src\shaders\light.fs" />
+    <None Include="src\shaders\light.vs" />
     <None Include="src\shaders\texture_1.fs" />
     <None Include="src\shaders\texture_1.vs" />
     <None Include="src\shaders\texture_trans_1.fs" />

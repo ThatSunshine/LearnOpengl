@@ -36,6 +36,10 @@
     <None Include="src\shaders\coordinate_system.vs" />
     <None Include="src\shaders\camera.vs" />
     <None Include="src\shaders\camera.fs" />
+    <None Include="src\shaders\color.fs" />
+    <None Include="src\shaders\light.fs" />
+    <None Include="src\shaders\color.vs" />
+    <None Include="src\shaders\light.vs" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\global.h">
