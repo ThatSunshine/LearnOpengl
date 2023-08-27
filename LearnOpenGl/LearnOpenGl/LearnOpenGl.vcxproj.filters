@@ -34,6 +34,8 @@
     <None Include="src\shaders\texture_trans_1.fs" />
     <None Include="src\shaders\coordinate_system.fs" />
     <None Include="src\shaders\coordinate_system.vs" />
+    <None Include="src\shaders\camera.vs" />
+    <None Include="src\shaders\camera.fs" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\global.h">
