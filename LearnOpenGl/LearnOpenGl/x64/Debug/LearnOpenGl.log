@@ -1,3 +1,13 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(lesson1.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
   main.cpp
+D:\engine_dev\LearnOpengl\LearnOpenGl\LearnOpenGl\src\main.cpp(187,27): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+D:\engine_dev\LearnOpengl\LearnOpenGl\LearnOpenGl\src\main.cpp(188,48): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
   LearnOpenGl.vcxproj -> D:\engine_dev\LearnOpengl\LearnOpenGl\x64\Debug\LearnOpenGl.exe
